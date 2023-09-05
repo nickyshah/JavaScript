@@ -190,17 +190,17 @@
 // increase();
 
 
-const money = [324, 2233, 232, 2323 , 3232, 2, 232]
+// const money = [324, 2233, 232, 2323 , 3232, 2, 232]
 
-let sum = 0 
- const total = (money) =>{
-    sum += money.pop()
-    if (money.length){
-        return sum
-    }
-    total(money)
+// let sum = 0 
+//  const total = (money) =>{
+//     sum += money.pop()
+//     if (money.length){
+//         return sum
+//     }
+//     total(money)
 
- }
+//  }
 
- const ttl = total(money)
- console.log(ttl)
+//  const ttl = total(money)
+//  console.log(ttl)
